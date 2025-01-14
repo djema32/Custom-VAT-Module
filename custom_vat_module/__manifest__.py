@@ -17,26 +17,6 @@
     'price': 75.00,
     'support': 'Xander.djema@gmail.com',
     'repository': 'https://github.com/djema32/Custom-VAT-Module#18.0',
-    'description':
-    <h1>VAT Price Display Module</h1>
-
-    <p>This module allows you to display both VAT-exclusive and VAT-inclusive prices for your products.</p>
-
-    <h2>Features:</h2>
-    <ul>
-        <li>Show both VAT-exclusive and VAT-inclusive prices on product pages.</li>
-        <li>Easy to install and configure in Odoo eCommerce.</li>
-        <li>Supports multiple tax rules.</li>
-    </ul>
-
-    <h2>Installation Instructions:</h2>
-    <ol>
-        <li>Download the module and place it in the custom add-ons directory.</li>
-        <li>Go to Apps, click Update Apps List, and search for "VAT Price Display".</li>
-        <li>Click Install to add the module to your Odoo system.</li>
-    </ol>
-
-    <h2>Support:</h2>
-    <p>For support, contact: <a href="mailto:Xander.djema@gmail.com">Xander.djema@gmail.com</a></p>,
+    'description': """ test """,
 
 }
