@@ -17,4 +17,5 @@
     'price': 75.00,
     'support': 'Xander.djema@gmail.com',
     'repository': 'https://github.com/djema32/Custom-VAT-Module#18.0',
+    'description': 'This module enables the display of both VAT-exclusive and VAT-inclusive prices for products on your Odoo eCommerce store, making it easier for customers to see both price options.'
 }
