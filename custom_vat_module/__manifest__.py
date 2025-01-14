@@ -15,6 +15,8 @@
     'license': 'LGPL-3',
     'currency': 'EUR',
     'price': 75.00,
+    'icon': '/custom_vat_module/static/description/icon.png',  # Path to the module's icon
+    'cover': '/custom_vat_module/static/description/cover.png',  # Path to the module's cover image
     'support': 'Xander.djema@gmail.com',
     'repository': 'https://github.com/djema32/Custom-VAT-Module#18.0',
     'description': 'This module enables the display of both VAT-exclusive and VAT-inclusive prices for products on your Odoo eCommerce store, making it easier for customers to see both price options. For the full documentation, go to this webpage: [Djema.be](http://www.djema.be).',
