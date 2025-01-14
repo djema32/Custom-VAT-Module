@@ -17,7 +17,7 @@
     'price': 75.00,
     'support': 'Xander.djema@gmail.com',
     'repository': 'https://github.com/djema32/Custom-VAT-Module#18.0',
-    'description': "
+    'description': ' 
 # VAT Price Display Module
 
 This module allows you to display both VAT-exclusive and VAT-inclusive prices for your products.
@@ -34,6 +34,6 @@ This module allows you to display both VAT-exclusive and VAT-inclusive prices fo
 
 ## Support:
 For support, contact: [Xander.djema@gmail.com](mailto:Xander.djema@gmail.com)
-"
+' 
 
 }
