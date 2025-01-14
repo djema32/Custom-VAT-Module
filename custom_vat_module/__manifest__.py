@@ -1,5 +1,5 @@
 {
-    'name': 'VAT-Inclusive and VAT-Exclusive Pricing',
+    'name': 'Display Product Price Including & Excluding VAT',
     'version': '1.0',  # Correct version format for Odoo 18
     'summary': 'Show product price excluding VAT alongside the including VAT price.',
     'author': 'Xander Djema',
