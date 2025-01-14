@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <!-- Inheriting the correct parent view -->
+        <template id="products_exclude_vat" inherit_id="website_sale.products_item">
+            <xpath expr="//span[@itemprop='priceCurrency']" position="before">
+                <p class="text-muted" style="font-size: 0.75rem;">
+                    <!-- Price excluding VAT -->
+                    <span t-out="template_price_vals['price_reduce'] / (1 + (product.taxes_id[0].amount if product.taxes_id else 0) / 100)"
+                          t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/> excl. VAT
+                </p>
+            </xpath>
+        </template>
+    </data>
+</odoo>

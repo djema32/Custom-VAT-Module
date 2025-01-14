@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <!-- Custom View for Displaying Price Excluding VAT -->
+        <template id="product_exclude_vat" inherit_id="website_sale.product_price">
+            <xpath expr="//div[@itemprop='offers']//h3" position="inside">
+                <!-- Calculate Price Excluding VAT -->
+                <span class="text-muted" style="margin-top: 10px; font-size: 1rem">
+                    <span t-out="combination_info['price'] / (1 + (product.taxes_id[0].amount or 0) / 100)" 
+                          t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+                    <span> excl. VAT</span>
+                </span>
+            </xpath>
+        </template>
+    </data>
+</odoo>
