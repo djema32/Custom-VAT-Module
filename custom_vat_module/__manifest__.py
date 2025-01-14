@@ -20,7 +20,7 @@
     'description': """
     <h1>VAT Price Display Module</h1>
     <p>This module allows you to display both VAT-exclusive and VAT-inclusive prices for your products.</p>
-
+    
     <h2>Features:</h2>
     <ul>
         <li>Show both VAT-exclusive and VAT-inclusive prices on product pages.</li>
@@ -40,5 +40,5 @@
 
     <h2>Support:</h2>
     <p>If you encounter any issues or need help, please reach out to <a href="mailto:Xander.djema@gmail.com">Xander.djema@gmail.com</a></p>
-""",
+"""
 }
