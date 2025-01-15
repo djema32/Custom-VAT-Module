@@ -17,8 +17,7 @@
     'price': 75.00,
     'images': {
         'thumbnail': 'static/description/cover.png',
-        # You can add more images if needed
-        'icon': 'static/description/cover.jpg',
+        'icon': 'static/description/banner.jpg',  # Change this line
     },
     'support': 'Xander.djema@gmail.com',
     'repository': 'https://github.com/djema32/Custom-VAT-Module#18.0',
